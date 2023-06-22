@@ -1,0 +1,303 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Sen', sans-serif;
+  word-wrap: normal;
+}
+header {
+  background-color: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(6px);
+  z-index: 10;
+}
+header #logo a {
+  text-decoration: none;
+}
+header #logo a img {
+  width: 50px;
+  display: block;
+}
+header #logo a h1 {
+  margin-bottom: 0px;
+  font-family: 'Italianno', cursive;
+  color: #594c40;
+  margin-top: 10px;
+}
+header nav ul li a {
+  letter-spacing: 1px;
+  color: #594c40 !important;
+}
+.carousel-caption {
+  background-color: rgba(255, 255, 255, 0.75) !important;
+  border-radius: 25px;
+  bottom: 25% !important;
+  transform: translateY(-25%);
+}
+.carousel-caption h5 {
+  color: #362f27;
+  font-weight: bold;
+}
+.carousel-caption p {
+  color: #362f27;
+}
+.carousel-caption a {
+  color: #362f27;
+  border-color: #362f27;
+  font-weight: bold;
+}
+#about .row .img img {
+  width: 100%;
+}
+#about .row .text {
+  flex-direction: column;
+  justify-content: space-around;
+}
+#about .row .text .text1 {
+  color: #594c40;
+  margin-bottom: 20px;
+}
+#about .row .text .text2 {
+  color: #565555;
+}
+#about .row .text .text2 span {
+  color: #43816a;
+  display: block;
+  margin-bottom: 10px;
+}
+#best .row .col-12 h2 {
+  font-family: 'Italianno', cursive;
+  color: #594c40;
+  font-size: 3rem;
+}
+.card {
+  width: 96%;
+  margin: 0px auto;
+  margin-bottom: 0px;
+}
+.card .card-body p {
+  color: #565555;
+}
+.card .card-body a,
+.card .card-body .d-inline {
+  color: #43816a;
+}
+#under20,
+#contact-us {
+  width: 100%;
+}
+#under20 .row .under,
+#contact-us .row .under {
+  font-size: 18px;
+  color: #fff;
+  background-color: #43816a;
+  border-radius: 5px;
+}
+#under20 .row .under a,
+#contact-us .row .under a {
+  color: #fff;
+}
+.top-img {
+  border-radius: 20px 0px 20px 0px;
+}
+.text-block-top {
+  border-radius: 0px 20px 0px 0px;
+  border-top: 1px solid #acacac;
+}
+.text-block-bottom {
+  border-radius: 0px 0px 0px 20px;
+  border-bottom: 1px solid #acacac;
+}
+.top-img2 {
+  border-radius: 20px 0px 0px 0px;
+  border-top: 1px solid #acacac;
+}
+.bottom-img2 {
+  border-radius: 0px 0px 20px 0px;
+  border-bottom: 1px solid #acacac;
+}
+.bg-nd {
+  background-color: rgba(86, 166, 137, 0);
+}
+.headings {
+  font-family: 'Italianno', cursive;
+  color: #594c40;
+  font-size: 3rem;
+}
+.green {
+  color: #43816a !important;
+}
+.brown-btn {
+  width: fit-content;
+  color: #565555 !important;
+  border-color: #565555 !important;
+}
+.darkgray {
+  color: #565555;
+}
+footer {
+  border-top: 1px solid #acacac;
+}
+footer p {
+  color: #565555;
+  font-size: 13px;
+}
+footer ul {
+  list-style-type: none;
+}
+footer ul li a {
+  color: #565555;
+}
+#cover2 {
+  border-bottom: 1px dotted #acacac;
+}
+#cover2 .cover3 {
+  background-image: url('../img/cover20.jpg');
+  height: 270px;
+  background-size: cover;
+}
+#cover2 .tekst2 p {
+  color: #594c40;
+}
+#modaldugme {
+  background-color: transparent;
+  border: none;
+  color: #43816a;
+  text-decoration: underline;
+}
+#modaldugme i {
+  margin-right: 2px;
+}
+#roses {
+  scroll-margin-top: 58px;
+}
+#soft,
+#under,
+#summer {
+  scroll-margin-top: 50px;
+}
+@media screen and (max-width: 769px) {
+  #cover {
+    top: 55px !important;
+  }
+  #cover #carouselExampleAutoplaying .carousel-inner .carousel-item .carousel-caption {
+    display: block !important;
+  }
+  #cover #carouselExampleAutoplaying .carousel-inner .carousel-item .carousel-caption h5 {
+    font-size: 28px;
+  }
+  #cover #carouselExampleAutoplaying .carousel-inner .carousel-item .carousel-caption p {
+    font-size: 18px;
+  }
+  #about .row .img {
+    margin-top: 60px;
+  }
+  #about .row .text {
+    margin-bottom: 30px;
+  }
+  #about .row .text .text2 {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 601px) {
+  #under20 .row .col-md-6 {
+    margin-bottom: 0px;
+    transform: skewx(0deg);
+  }
+  #under20 .row .col-md-6 h3 {
+    transform: skewX(0deg);
+    font-size: 20px;
+  }
+  #under20 .row .col-md-6 a {
+    transform: skewX(0deg);
+    margin: 8px auto;
+    font-size: 14px;
+    padding: 5px 7px;
+  }
+  #under20 .row .col-md-6 p {
+    transform: skewX(0deg);
+    margin: 8px auto;
+    font-size: 15px;
+  }
+  #under20 .row .first-col1 {
+    border-radius: 0px 0px 20px 20px;
+    order: 2;
+  }
+  #under20 .row .second-col2 {
+    border-radius: 20px 20px 0px 0px;
+    order: 1;
+  }
+  .headings {
+    font-size: 40px !important;
+  }
+  #under20 {
+    padding-bottom: 2rem !important;
+  }
+  #new-block .text-block-bottom {
+    border: none;
+  }
+  #new-block .text-block-top {
+    border: none;
+  }
+  #new-block .first-one {
+    order: 2;
+  }
+  #new-block .second-one {
+    order: 1;
+  }
+  #cover2 .tekst2 p {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 481px) {
+  #cover #carouselExampleAutoplaying .carousel-inner .carousel-item .carousel-caption {
+    bottom: 14% !important;
+    transform: translateY(-14%);
+  }
+  #cover #carouselExampleAutoplaying .carousel-inner .carousel-item .carousel-caption h5 {
+    font-size: 18px;
+  }
+  #cover #carouselExampleAutoplaying .carousel-inner .carousel-item .carousel-caption p {
+    font-size: 11px;
+  }
+  #cover #carouselExampleAutoplaying .carousel-inner .carousel-item .carousel-caption a {
+    font-size: 12px;
+    padding: 3px 6px;
+  }
+  #under20 .row .under,
+  #contact-us .row .under {
+    font-size: 15px !important;
+  }
+  footer p {
+    font-size: 12px;
+  }
+  #cover2 .cover3 {
+    height: 200px;
+  }
+  #modal-blok {
+    justify-content: center !important;
+  }
+  #modal-blok #modaldugme {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 376px) {
+  #about .row .text .text1 {
+    font-size: 21px;
+  }
+  #about .row .text .text2 {
+    font-size: 13px;
+  }
+  #under20 .row .under,
+  #contact-us .row .under {
+    font-size: 14px !important;
+  }
+  #cover2 .tekst2 p {
+    font-size: 17px;
+  }
+}
+@media screen and (max-width: 321px) {
+  #cover #carouselExampleAutoplaying .carousel-inner .carousel-item .carousel-caption {
+    bottom: 7% !important;
+    transform: translateY(-7%);
+  }
+}
