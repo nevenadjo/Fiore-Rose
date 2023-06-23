@@ -229,6 +229,7 @@ footer ul li a {
 }
 #author-info .info-text p:nth-child(odd) {
   margin-bottom: 4px;
+  text-decoration: underline;
 }
 #author-info .info-text p {
   font-size: 18px;
