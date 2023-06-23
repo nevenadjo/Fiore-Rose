@@ -369,9 +369,6 @@ footer{
             }
         }
     }
-    .headings{
-        font-size: 40px !important;
-    }
     #under20{
         padding-bottom: 2rem !important;
     }
@@ -396,8 +393,17 @@ footer{
             }
         }
     }
+    .tekst-kontakt{
+        order:2;
+    }
+    #forma{
+        order:1;
+    }
 }
 @media screen and (max-width: 481px){
+    h2{
+        font-size: 40px !important;
+    }
     #cover{
         #carouselExampleAutoplaying{
             .carousel-inner{
@@ -444,6 +450,15 @@ footer{
             
         }
     }
+    #forma{
+        .forma-block{
+            form{
+                input, textarea{
+                    width: 90%;
+                }
+            }
+        }
+    }
     
 }
 @media screen and  (max-width: 376px){
@@ -472,6 +487,11 @@ footer{
             p{
                 font-size: 17px;
             }
+        }
+    }
+    .tekst-kontakt{
+        p, .phone{
+            font-size: 14px !important;
         }
     }
 }

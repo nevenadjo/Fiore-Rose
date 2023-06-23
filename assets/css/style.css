@@ -266,9 +266,6 @@ footer ul li a {
     border-radius: 20px 20px 0px 0px;
     order: 1;
   }
-  .headings {
-    font-size: 40px !important;
-  }
   #under20 {
     padding-bottom: 2rem !important;
   }
@@ -287,8 +284,17 @@ footer ul li a {
   #cover2 .tekst2 p {
     font-size: 20px;
   }
+  .tekst-kontakt {
+    order: 2;
+  }
+  #forma {
+    order: 1;
+  }
 }
 @media screen and (max-width: 481px) {
+  h2 {
+    font-size: 40px !important;
+  }
   #cover #carouselExampleAutoplaying .carousel-inner .carousel-item .carousel-caption {
     bottom: 14% !important;
     transform: translateY(-14%);
@@ -319,6 +325,10 @@ footer ul li a {
   #modal-blok #modaldugme {
     font-size: 14px;
   }
+  #forma .forma-block form input,
+  #forma .forma-block form textarea {
+    width: 90%;
+  }
 }
 @media screen and (max-width: 376px) {
   #about .row .text .text1 {
@@ -333,6 +343,10 @@ footer ul li a {
   }
   #cover2 .tekst2 p {
     font-size: 17px;
+  }
+  .tekst-kontakt p,
+  .tekst-kontakt .phone {
+    font-size: 14px !important;
   }
 }
 @media screen and (max-width: 321px) {
