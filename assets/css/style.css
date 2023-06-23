@@ -215,6 +215,25 @@ footer ul li a {
   color: #fff;
   border: none;
 }
+#author-info {
+  padding-top: 80px;
+  margin-bottom: 20px;
+}
+#author-info img {
+  width: 90%;
+}
+#author-info h3 {
+  font-family: 'Italianno', cursive;
+  color: #594c40;
+  font-size: 3rem;
+}
+#author-info .info-text p:nth-child(odd) {
+  margin-bottom: 4px;
+}
+#author-info .info-text p {
+  font-size: 18px;
+  color: #565555;
+}
 @media screen and (max-width: 769px) {
   #cover {
     top: 55px !important;
