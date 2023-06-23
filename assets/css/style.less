@@ -258,6 +258,49 @@ footer{
     scroll-margin-top: 50px;
 }
 
+//contact
+
+#forma{
+    padding-top: 58px;
+    .forma-block{
+        background-image: url('../img/cover2.jpg');
+        background-size: cover;
+        background-attachment: fixed;
+        border-radius: 5px;
+        form{
+            input, textarea{
+                width: 80%;
+                margin-bottom: 15px;
+                padding: 3px;
+                margin: 10px auto;
+            }
+            input:first-child{
+                margin-top: 30px;
+            }
+            input:last-child{
+                margin-bottom: 30px;
+            }
+        }
+    }
+    h2{
+        .headings();
+    }
+    a, p{
+        color: @dark-gray;
+        text-align: center;
+    }
+    .ikonice{
+        a{
+            margin: 0px 5px;
+        }
+    }
+    #submit{
+        background-color: @dark-green;
+        color: @white;
+        border: none;
+    }
+}
+
 //responsive
 
 @media screen and (max-width: 769px){
